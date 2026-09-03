@@ -146,7 +146,7 @@ body > *{ position:relative; z-index:1; }
   --pos:50%;
   position:relative;
   width:100%;
-  aspect-ratio:1024/895;
+  aspect-ratio:1024/780;
   border-radius:var(--radio);
   overflow:hidden;
   box-shadow:var(--sombra);
