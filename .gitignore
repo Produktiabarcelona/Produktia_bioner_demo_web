@@ -1,0 +1,11 @@
+# Se publica solo la web: se ignora todo y se permiten los archivos necesarios
+/*
+
+!.gitignore
+!README.md
+!index.html
+!styles.css
+!script.js
+!IMG1.jpg
+!IMG2.jpg
+!IMGFondo.png
