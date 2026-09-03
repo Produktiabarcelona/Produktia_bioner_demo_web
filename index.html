@@ -31,36 +31,38 @@
   </div>
 </header>
 
-<!-- ============ HERO ============ -->
+<!-- ============ CONTENIDO ============ -->
 <main class="hero">
-  <section class="hero__panel">
-    <h1 class="hero__title">
-      Soluciones fiables<br>
-      y versátiles para simplificar<br>
-      la práctica clínica diaria.
-    </h1>
+  <h1 class="hero__title">
+    Soluciones fiables y versátiles<br>
+    para simplificar la práctica clínica diaria.
+  </h1>
 
-    <!-- ---- Comparador antes / después ---- -->
-    <figure class="compare-wrap">
-      <div class="compare" id="compare" style="--pos:50%">
-        <img class="compare__img" src="IMG2.jpg" alt="Productos" draggable="false">
-        <div class="compare__clip">
-          <img class="compare__img" src="IMG1.jpg" alt="Soluciones" draggable="false">
-        </div>
+  <!-- ---- Comparador de imagenes ---- -->
+  <figure class="compare-wrap">
 
-        <span class="compare__tag compare__tag--before">Soluciones</span>
-        <span class="compare__tag compare__tag--after">Productos</span>
+    <!-- etiquetas fuera del marco de las imagenes -->
+    <div class="legend">
+      <span class="legend__item legend__item--left">Soluciones</span>
+      <span class="legend__item legend__item--right">Productos</span>
+    </div>
 
-        <div class="compare__divider" aria-hidden="true"></div>
-        <button type="button" class="compare__handle" id="compareHandle"
-                role="slider" aria-label="Comparar soluciones y productos"
-                aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-orientation="horizontal">
-          <svg viewBox="0 0 24 24"><path d="M9.6 5.6 4.2 11c-.3.3-.3.7 0 1l5.4 5.4 1.3-1.3L7 12l3.9-3.9zm4.8 0L13 6.9 16.9 12 13 15.9l1.4 1.4 5.4-5.4c.3-.3.3-.7 0-1z"/></svg>
-        </button>
+    <div class="compare" id="compare" style="--pos:50%">
+      <img class="compare__img" src="IMG2.jpg" alt="Productos" draggable="false">
+      <div class="compare__clip">
+        <img class="compare__img" src="IMG1.jpg" alt="Soluciones" draggable="false">
       </div>
-      <figcaption class="compare__hint">Pulsa y arrastra para comparar</figcaption>
-    </figure>
-  </section>
+
+      <div class="compare__divider" aria-hidden="true"></div>
+      <button type="button" class="compare__handle" id="compareHandle"
+              role="slider" aria-label="Comparar soluciones y productos"
+              aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-orientation="horizontal">
+        <svg viewBox="0 0 24 24"><path d="M9.6 5.6 4.2 11c-.3.3-.3.7 0 1l5.4 5.4 1.3-1.3L7 12l3.9-3.9zm4.8 0L13 6.9 16.9 12 13 15.9l1.4 1.4 5.4-5.4c.3-.3.3-.7 0-1z"/></svg>
+      </button>
+    </div>
+
+    <figcaption class="compare__hint">Pulsa y arrastra para comparar</figcaption>
+  </figure>
 </main>
 
 <footer class="footer">
